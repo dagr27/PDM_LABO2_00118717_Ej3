@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/redOne"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/red"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/greenOne"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/green"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/blueOne"
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:background="@color/blue"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+</LinearLayout>
+
